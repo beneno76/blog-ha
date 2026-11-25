@@ -13,7 +13,7 @@ producto:
   nombre: "Apollo Automation MTR-1"
   link: "https://apolloautomation.com/products/mtr-1"
   tienda: "Apollo Automation"
-  precio: "Premio (lista: US$ 39,99; US$ 59,99 con CO2)"
+  precio: "Premio (lista: US$ 39,99)"
   fecha_compra: "2026-11"
   integracion: "ESPHome"
   # nota: 4
@@ -29,7 +29,7 @@ Hoy les voy a contar mi experiencia con el [Apollo MTR-1](https://apolloautomati
 
 ## Qué es
 
-El Apollo MTR-1 es un multisensor y radar multi-objetivo basado en ESPHome. En un formato bastante pequeño (49 × 32 × 15 mm) trae empaquetados un sensor de LUX/UV/CO2 y un radar capaz de detectar y distinguir hasta 3 personas de forma simultánea. Además, se pueden definir múltiples zonas de detección o exclusión para armar automatizaciones.
+El Apollo MTR-1 es un multisensor y radar multi-objetivo basado en ESPHome. En un formato bastante pequeño (49 × 32 × 15 mm) trae empaquetados un sensor de LUX/UV, uno de temperatura y presión, y un radar capaz de detectar y distinguir hasta 3 personas de forma simultánea. Además, se pueden definir múltiples zonas de detección o exclusión para armar automatizaciones. También existe una versión con sensor de CO2, que es opcional; la mía no lo tiene.
 
 El precio de lista en la [página de Apollo Automation](https://apolloautomation.com/products/mtr-1) es de US$ 39,99 (US$ 59,99 la versión con sensor de CO2) y cuentan con envío internacional.
 
