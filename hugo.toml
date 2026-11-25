@@ -1,4 +1,4 @@
-baseURL = "https://blog-ha.pages.dev/"   # cambiar por el dominio definitivo
+baseURL = "https://blog-ha-adx.pages.dev/"   # cambiar por el dominio definitivo
 locale = "es-CL"
 defaultContentLanguage = "es"
 title = "Domótica desde AliExpress"
