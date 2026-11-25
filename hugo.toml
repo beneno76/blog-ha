@@ -1,0 +1,79 @@
+baseURL = "https://blog-ha.pages.dev/"   # cambiar por el dominio definitivo
+locale = "es-CL"
+defaultContentLanguage = "es"
+title = "Domótica desde AliExpress"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = "categorias"
+  tag = "etiquetas"
+  protocolo = "protocolos"
+
+[params]
+  env = "production"
+  description = "Reviews honestas de dispositivos comprados en AliExpress y cómo integrarlos en Home Assistant."
+  author = "Bernardo Suárez"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = false
+
+  [params.homeInfoParams]
+    Title = "Domótica desde AliExpress 🏠"
+    Content = "Lo que compro en AliExpress para mi Home Assistant: qué funciona, qué no, y cómo integrarlo. Sin publicidad ni links pagados."
+
+  [params.cover]
+    responsiveImages = true
+    hiddenInList = false
+
+  [params.fuseOpts]
+    keys = ["title", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    name = "Reviews"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "Protocolos"
+    url = "/protocolos/"
+    weight = 20
+  [[menu.main]]
+    name = "Etiquetas"
+    url = "/etiquetas/"
+    weight = 30
+  [[menu.main]]
+    name = "Buscar"
+    url = "/buscar/"
+    weight = 40
+  [[menu.main]]
+    name = "Acerca"
+    url = "/acerca/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+  style = "monokai"
+
+[imaging]
+  resampleFilter = "Lanczos"
+  [imaging.jpeg]
+    quality = 80
+  [imaging.webp]
+    quality = 80

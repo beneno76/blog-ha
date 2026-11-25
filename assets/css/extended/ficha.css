@@ -1,0 +1,11 @@
+.ficha-producto {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 2rem;
+  background: var(--entry);
+}
+.ficha-producto table { margin: 0; }
+.ficha-producto th { width: 35%; text-align: left; font-weight: 600; }
+.ficha-producto th, .ficha-producto td { border-bottom: 1px solid var(--border); padding: 0.4rem 0; }
+.ficha-producto tr:last-child th, .ficha-producto tr:last-child td { border-bottom: none; }
