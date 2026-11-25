@@ -8,7 +8,7 @@
       {{- with $.Page.Params.protocolos }}<tr><th>Protocolo</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
       {{- with .integracion }}<tr><th>Integración HA</th><td>{{ . }}</td></tr>{{ end }}
       {{- with .nota }}<tr><th>Nota</th><td>{{ strings.Repeat (int .) "★" }}{{ strings.Repeat (sub 5 (int .)) "☆" }} ({{ . }}/5)</td></tr>{{ end }}
-      {{- with .link }}<tr><th>Dónde</th><td><a href="{{ . }}" target="_blank" rel="noopener nofollow">Ver en AliExpress ↗</a></td></tr>{{ end }}
+      {{- with .link }}<tr><th>Dónde</th><td><a href="{{ . }}" target="_blank" rel="noopener nofollow">Ver en {{ $.Page.Params.producto.tienda | default "AliExpress" }} ↗</a></td></tr>{{ end }}
     </tbody>
   </table>
 </div>

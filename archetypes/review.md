@@ -12,6 +12,7 @@ cover:
 producto:
   nombre: "Nombre del producto"
   link: "https://es.aliexpress.com/item/XXXX.html"
+  tienda: "AliExpress"
   precio: "US$ 0"
   fecha_compra: "2026-01"
   integracion: "ZHA / Zigbee2MQTT / Tuya / ESPHome / Local Tuya / MQTT"

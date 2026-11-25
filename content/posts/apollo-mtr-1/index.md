@@ -12,6 +12,7 @@ protocolos: ["Wi-Fi"]
 producto:
   nombre: "Apollo Automation MTR-1"
   link: "https://apolloautomation.com/products/mtr-1"
+  tienda: "Apollo Automation"
   precio: "Premio (lista: US$ 39,99; US$ 59,99 con CO2)"
   fecha_compra: "2026-11"
   integracion: "ESPHome"
